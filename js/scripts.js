@@ -16,8 +16,6 @@ window.onload = function() {
 
 
 
-
-
 // Not sure how to onload properly in JS, just saving my function
 // function censorWords(text) {
 //   const bannedWords = ["zoinks", "muppeteer", "biffaroni", "loopdaloo"]
