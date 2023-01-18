@@ -27,7 +27,27 @@ Code:
 const text = "zoinks!, muppeteer, Biffaroni, loopdaloop The rest of these words are completely fine!"
 Expected output: "z------!, m--------, B--------, l----------, The rest of these words are completely fine1"
 
+Test #4,
+Describe: wordCensor();
+
+Test: "It should account for edge cases such as capitlizations, punctioation by filtering the input to have lowercase, no periods.
+code:
+const text = "Zoinks, !muppeteer!, BiFaRoNi, LOOPDALOOP"
+expected output : "z-----", m---------, b-------, l---------"
+side note : consider keeping the capitlizations, when returning the words censored, perhaps even keeping the capitlization...?
 
 
 
+let example = ["Car1", "Car2", "Car3"]
+
+forEach
+
+for (i=0; i <= textArray.length-1; i++);
+example[i]
+
+
+> specificity > capilizations, puncations,
+
+functionality censoring
+>turn string into astericks
 
